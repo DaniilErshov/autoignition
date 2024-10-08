@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Storage\Daniil\auto_ignition\auto_ignition\sundials_build\bin\Debug\auto_ignition.exe</FullPath>
+      <FullPath>D:\Storage\Daniil\autoignition\autoignition\sundials_build\bin\Debug\auto_ignition.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

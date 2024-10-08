@@ -1,109 +1,47 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
   posix_api.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/Boost_regex/src/posix_api.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\src\posix_api.cpp: No such file or directory,
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\posix_api.cpp(264,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\posix_api.cpp(264,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\posix_api.cpp(265,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\posix_api.cpp(265,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   regex.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/Boost_regex/src/regex.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\src\regex.cpp: No such file or directory,
   regex_debug.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/Boost_regex/src/regex_debug.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\src\regex_debug.cpp: No such file or directory,
   static_mutex.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/Boost_regex/src/static_mutex.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\src\static_mutex.cpp: No such file or directory,
   wide_posix_api.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/Boost_regex/src/wide_posix_api.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\src\wide_posix_api.cpp: No such file or directory,
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\wide_posix_api.cpp(19,9): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\wide_posix_api.cpp(287,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\wide_posix_api.cpp(287,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\wide_posix_api.cpp(288,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\Boost_regex\src\wide_posix_api.cpp(288,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   chemkinReader.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/chemkinReader.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\chemkinReader.cpp: No such file or directory,
   element.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/element.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\element.cpp: No such file or directory,
   reaction.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/reaction.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\reaction.cpp: No such file or directory,
   reactionParser.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/reactionParser.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\reactionParser.cpp: No such file or directory,
+D:\Storage\Daniil\autoignition\autoignition\ChemKinReader\src\reactionParser.cpp(313,20): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\ChemKinReader\src\reactionParser.cpp(313,71): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   species.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/species.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\species.cpp: No such file or directory,
   stringFunctions.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/stringFunctions.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\stringFunctions.cpp: No such file or directory,
+D:\Storage\Daniil\autoignition\autoignition\ChemKinReader\src\stringFunctions.cpp(87,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\autoignition\autoignition\ChemKinReader\src\stringFunctions.cpp(140,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   thermo.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/thermo.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\thermo.cpp: No such file or directory,
   thermoParser.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/thermoParser.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\thermoParser.cpp: No such file or directory,
   transport.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/transport.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\transport.cpp: No such file or directory,
   transportParser.cpp
-/CHEMKIN_READER_REPO_CROP/3rd-party/ChemKinReader/src/transportParser.cpp(1,1): error C1083: Не удается открыть файл источник: ..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\src\transportParser.cpp: No such file or directory,
   auto_ignition.cpp
 D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\kinsol\kinsol.h(143,1): warning C4141: dllimport: используется несколько раз
 D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
 D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.h(140,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
 D:\Storage\Daniil\autoignition\autoignition\autoignition\auto_ignition.cpp(109,12): warning C4101: T_center: неиспользованная локальная переменная
-  concentration.cpp
-D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\kinsol\kinsol.h(143,1): warning C4141: dllimport: используется несколько раз
-D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.h(140,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(100,18): warning C4101: sum2: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(100,12): warning C4101: sum1: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(98,41): warning C4101: logF_core_r: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(98,33): warning C4101: logF_r: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(106,12): warning C4101: sum_ThirdBodies: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(325,21): warning C4101: specie2: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\concentration.cpp(325,12): warning C4101: specie1: неиспользованная локальная переменная
-  constants.cpp
-D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\kinsol\kinsol.h(143,1): warning C4141: dllimport: используется несколько раз
-D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.h(140,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
-D:\Storage\Daniil\autoignition\autoignition\autoignition\constants.cpp(95,53): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Storage\Daniil\autoignition\autoignition\autoignition\constants.cpp(96,57): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  functions_sundials.cpp
-D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\kinsol\kinsol.h(143,1): warning C4141: dllimport: используется несколько раз
-D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.h(140,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(18,12): warning C4101: h: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(498,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(488,12): warning C4101: x_start: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(488,31): warning C4101: D: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(488,21): warning C4101: x_finish: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(489,12): warning C4101: rho: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(542,13): warning C4101: jop: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(561,13): warning C4101: jop: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1169,31): warning C4244: аргумент: преобразование "double" в "long", возможна потеря данных
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1176,12): warning C4101: W: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(906,33): warning C4101: di_l: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(906,19): warning C4101: i_vel_interf: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(906,39): warning C4101: di_r: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(906,45): warning C4101: i_inter_T: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(906,9): warning C4101: i_T: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(906,14): warning C4101: i_u: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1176,15): warning C4101: w_dot: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(687,23): warning C4101: retvalr: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1247,33): warning C4101: di_l: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1229,12): warning C4101: M: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1247,19): warning C4101: i_vel_interf: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1247,39): warning C4101: di_r: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1254,26): warning C4101: u_inter_curr: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1254,40): warning C4101: u_inter_next: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1247,45): warning C4101: i_inter_T: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1247,9): warning C4101: i_T: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1247,14): warning C4101: i_u: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1232,12): warning C4101: Cp: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1255,46): warning C4101: vel_interf_next: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1228,12): warning C4101: Temp: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1235,9): warning C4101: j: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1254,12): warning C4101: u_inter_prev: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1255,29): warning C4101: vel_interf_prev: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1718,16): warning C4101: Sh: неиспользованная локальная переменная
-D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.cpp(1888,23): warning C4101: ypval: неиспользованная локальная переменная
   GasTransport.cpp
 D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\kinsol\kinsol.h(143,1): warning C4141: dllimport: используется несколько раз
 D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
 D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.h(140,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
 D:\Storage\Daniil\autoignition\autoignition\autoignition\GasTransport.cpp(287,35): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
-  Компиляция...
-  MMCollisionInt.cpp
-  polyfit.cpp
-D:\Storage\Daniil\autoignition\autoignition\autoignition\polyfit.cpp(98,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Storage\Daniil\autoignition\autoignition\autoignition\polyfit.cpp(98,28): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   thermodynamic.cpp
 D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\kinsol\kinsol.h(143,1): warning C4141: dllimport: используется несколько раз
 D:\Storage\Daniil\autoignition\autoignition\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
 D:\Storage\Daniil\autoignition\autoignition\autoignition\functions_sundials.h(140,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
   Создание кода...
 D:\Storage\Daniil\autoignition\autoignition\autoignition\thermodynamic.cpp(196,1): warning C4715: get_Lambda: значение возвращается не при всех путях выполнения
+  LINK : не найден или не выполнена сборка ..\sundials_build\bin\Debug\auto_ignition.exe при последней инкрементной компоновке; выполняется полная компоновка
+  auto_ignition.vcxproj -> D:\Storage\Daniil\autoignition\autoignition\sundials_build\bin\Debug\auto_ignition.exe

@@ -18,14 +18,22 @@ include_directories(
 
 # Указываем путь к библиотекам SUNDIALS
 set(SUNDIALS_INCLUDE_DIR
-  D:/Storage/Daniil/auto_ignition/auto_ignition/sundials/sundials-6.5.1/include
+  ${CMAKE_CURRENT_SOURCE_DIR}/sundials-6.5.1/include
   CACHE PATH "Location of SUNDIALS header files"
 )
 
-set(SUNDIALS_LIBRARY_DIR
-  D:/Storage/Daniil/auto_ignition/auto_ignition/sundials_build/bin/Debug
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+    set(SUNDIALS_LIBRARY_DIR
+    ${CMAKE_CURRENT_SOURCE_DIR}/sundials_build/bin/Debug
+    CACHE PATH "Location of SUNDIALS libraries"
+)
+else()
+    set(SUNDIALS_LIBRARY_DIR
+  ${CMAKE_CURRENT_SOURCE_DIR}/sundials_build/bin/Release
   CACHE PATH "Location of SUNDIALS libraries"
 )
+endif()
+
 
 # Находим библиотеки SUNDIALS
 find_library(SUNDIALS_IDA_LIB
