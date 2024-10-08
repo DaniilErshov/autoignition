@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/arkode/C_serial/CMakeLists.txt
+  ark_robertson.c
+  ark_robertson.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Debug\ark_robertson.exe

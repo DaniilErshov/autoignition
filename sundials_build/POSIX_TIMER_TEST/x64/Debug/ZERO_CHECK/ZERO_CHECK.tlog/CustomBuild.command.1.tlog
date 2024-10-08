@@ -1,0 +1,10 @@
+^D:\STORAGE\DANIIL\SUNDIALS_BUILD\POSIX_TIMER_TEST\CMAKEFILES\52A774720025B1B44EFD902D262A8DFF\GENERATE.STAMP.RULE
+setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST -BD:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST/ltest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/src/sunnonlinsol/newton/CMakeLists.txt
+  sunnonlinsol_newton.c
+D:\Storage\Daniil\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllexport: используется несколько раз
+  (компиляция исходного файла "../../../../sundials/sundials-6.5.1/src/sunnonlinsol/newton/sunnonlinsol_newton.c")
+  
+D:\Storage\Daniil\sundials\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../../sundials/sundials-6.5.1/src/sunnonlinsol/newton/sunnonlinsol_newton.c")
+  
+D:\Storage\Daniil\sundials\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../../sundials/sundials-6.5.1/src/sunnonlinsol/newton/sunnonlinsol_newton.c")
+  
+  sundials_sunnonlinsolnewton_obj_shared.vcxproj -> D:\Storage\Daniil\sundials_build\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_obj_shared.dir\Debug\sundials_sunnonlinsolnewton_obj_shared.lib

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/arkode/C_serial/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8065: настраиваемая сборка для элемента "D:\Storage\Daniil\sundials\sundials-6.5.1\examples\arkode\C_serial\CMakeLists.txt" успешно выполнена, но указанные выходные данные "d:\storage\daniil\sundials_build\examples\arkode\c_serial\cmakefiles\generate.stamp" не созданы. Это может привести к неправильной работе инкрементной сборки.
+  ark_robertson_constraints.c
+  ark_robertson_constraints.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Release\ark_robertson_constraints.exe

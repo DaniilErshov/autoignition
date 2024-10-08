@@ -1,0 +1,1 @@
+D:\Storage\Daniil\sundials_build\src\nvector\serial\sundials_nvecserial_obj_static.dir\Debug\sundials_nvecserial_obj_static.lib

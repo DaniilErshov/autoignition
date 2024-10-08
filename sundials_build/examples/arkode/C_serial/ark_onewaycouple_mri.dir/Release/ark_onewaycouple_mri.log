@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/arkode/C_serial/CMakeLists.txt
+  ark_onewaycouple_mri.c
+  ark_onewaycouple_mri.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Release\ark_onewaycouple_mri.exe

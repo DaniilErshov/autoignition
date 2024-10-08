@@ -1,0 +1,10 @@
+^D:\STORAGE\DANIIL\SUNDIALS_BUILD\CMAKEFILES\5BBA0EE06F0B3A0ABC0D61AE0C8F4629\GENERATE.STAMP.RULE
+setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/sundials/sundials-6.5.1 -BD:/Storage/Daniil/sundials_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Storage/Daniil/sundials_build/SUNDIALS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

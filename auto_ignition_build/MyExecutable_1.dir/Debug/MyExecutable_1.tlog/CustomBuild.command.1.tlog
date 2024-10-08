@@ -1,0 +1,10 @@
+^D:\STORAGE\DANIIL\AUTO_IGNITION\AUTO_IGNITION\CMAKELISTS.TXT
+setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/auto_ignition/auto_ignition -BD:/Storage/Daniil/auto_ignition/auto_ignition/auto_ignition_build --check-stamp-file D:/Storage/Daniil/auto_ignition/auto_ignition/auto_ignition_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

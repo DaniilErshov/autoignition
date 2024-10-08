@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/ida/serial/CMakeLists.txt
+  idaRoberts_dns.c
+D:\Storage\Daniil\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_newton.h(121,1): warning C4141: dllimport: используется несколько раз
+  (компиляция исходного файла "../../../../sundials/sundials-6.5.1/examples/ida/serial/idaRoberts_dns.c")
+  
+LINK : fatal error LNK1104: не удается открыть файл "..\..\..\bin\Debug\sundials_ida.lib"

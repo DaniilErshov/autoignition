@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/cvode/serial/CMakeLists.txt
+  cvAdvDiff_bnd.c
+  cvAdvDiff_bnd.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Release\cvAdvDiff_bnd.exe

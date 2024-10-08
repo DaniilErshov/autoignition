@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1e2185b8-11cb-4ecb-8f46-e5d16df09fed}</ProjectGuid>
+    <RootNamespace>autoignition</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\sundials_build\bin\Release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\sundials_build\bin\Debug</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\sundials\sundials-6.5.1\include;..\sundials_build\include;..\sundials\sundials-6.5.1\src\sundials;..\sundials_build\bin\Debug\;..\ChemKinReader\include;..\ChemKinReader\src;..\Boost_regex\include;..\Boost_regex\src;..\Boost_regex\include\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>..\sundials_build\bin\Debug\sundials_kinsol.lib;..\sundials_build\bin\Debug\sundials_ida.lib;..\sundials_build\bin\Debug\sundials_nvecserial.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\sundials\sundials-6.5.1\include;..\sundials_build\include;..\sundials\sundials-6.5.1\src\sundials;..\sundials_build\bin\Release\;..\ChemKinReader\include\;..\ChemKinReader\src\;..\Boost_regex\include;..\Boost_regex\src;..\Boost_regex\include\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>..\sundials_build\bin\Release\sundials_kinsol.lib;..\sundials_build\bin\Release\sundials_ida.lib;..\sundials_build\bin\Release\sundials_nvecserial.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Boost_regex\src\posix_api.cpp" />
+    <ClCompile Include="..\Boost_regex\src\regex.cpp" />
+    <ClCompile Include="..\Boost_regex\src\regex_debug.cpp" />
+    <ClCompile Include="..\Boost_regex\src\static_mutex.cpp" />
+    <ClCompile Include="..\Boost_regex\src\wide_posix_api.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\chemkinReader.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\element.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\reaction.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\reactionParser.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\species.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\stringFunctions.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\thermo.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\thermoParser.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\transport.cpp" />
+    <ClCompile Include="..\ChemKinReader\src\transportParser.cpp" />
+    <ClCompile Include="auto_ignition.cpp" />
+    <ClCompile Include="concentration.cpp" />
+    <ClCompile Include="constants.cpp" />
+    <ClCompile Include="functions_sundials.cpp" />
+    <ClCompile Include="GasTransport.cpp" />
+    <ClCompile Include="MMCollisionInt.cpp" />
+    <ClCompile Include="polyfit.cpp" />
+    <ClCompile Include="thermodynamic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\include\boost\regex.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\chemkinReader.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\element.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\gpc_params.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\reaction.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\reactionParser.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\species.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\stringFunctions.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\StringUtils.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\thermo.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\thermoParser.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\transport.h" />
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\transportParser.h" />
+    <ClInclude Include="concentration.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="functions_sundials.h" />
+    <ClInclude Include="GasTransport.h" />
+    <ClInclude Include="MMCollisionInt.h" />
+    <ClInclude Include="polyfit.h" />
+    <ClInclude Include="thermodynamic.h" />
+    <ClInclude Include="utilities.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

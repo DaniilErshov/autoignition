@@ -1,0 +1,1704 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+      ‘Ў®аЄ  ­ з в  11.03.2024 17:17:30.
+      
+      Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      PrepareForBuild:
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
+        ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ‘®§¤ ­ЁҐ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ” ©« "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      
+      ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+          ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+          ЋиЁЎ®Є: 0
+      
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.18
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Storage/Daniil/sundials_build/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-bcaoii"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-bcaoii"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-bcaoii'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_47964.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:32.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-bcaoii\\cmTC_47964.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_47964.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-bcaoii\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_47964.dir\\Debug\\cmTC_47964.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_47964.dir\\Debug\\cmTC_47964.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_47964.dir\\Debug\\cmTC_47964.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47964.dir\\Debug\\\\" /Fd"cmTC_47964.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\cmake\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47964.dir\\Debug\\\\" /Fd"cmTC_47964.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\cmake\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-bcaoii\\Debug\\cmTC_47964.exe" /INCREMENTAL /ILK:"cmTC_47964.dir\\Debug\\cmTC_47964.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-bcaoii/Debug/cmTC_47964.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-bcaoii/Debug/cmTC_47964.lib" /MACHINE:X64  /machine:x64 cmTC_47964.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_47964.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-bcaoii\\Debug\\cmTC_47964.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_47964.dir\\Debug\\cmTC_47964.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_47964.dir\\Debug\\cmTC_47964.tlog\\cmTC_47964.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-bcaoii\\cmTC_47964.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9qnb4m"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9qnb4m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9qnb4m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f1f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:34.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\cmTC_5f1f1.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_5f1f1.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_5f1f1.dir\\Debug\\cmTC_5f1f1.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_5f1f1.dir\\Debug\\cmTC_5f1f1.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_5f1f1.dir\\Debug\\cmTC_5f1f1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f1f1.dir\\Debug\\\\" /Fd"cmTC_5f1f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\CheckIncludeFile.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f1f1.dir\\Debug\\\\" /Fd"cmTC_5f1f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\Debug\\cmTC_5f1f1.exe" /INCREMENTAL /ILK:"cmTC_5f1f1.dir\\Debug\\cmTC_5f1f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9qnb4m/Debug/cmTC_5f1f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9qnb4m/Debug/cmTC_5f1f1.lib" /MACHINE:X64  /machine:x64 cmTC_5f1f1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5f1f1.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\Debug\\cmTC_5f1f1.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_5f1f1.dir\\Debug\\cmTC_5f1f1.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_5f1f1.dir\\Debug\\cmTC_5f1f1.tlog\\cmTC_5f1f1.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9qnb4m\\cmTC_5f1f1.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-qg2hej"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-qg2hej"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-qg2hej'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_885f2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:36.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\cmTC_885f2.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_885f2.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_885f2.dir\\Debug\\cmTC_885f2.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_885f2.dir\\Debug\\cmTC_885f2.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_885f2.dir\\Debug\\cmTC_885f2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_885f2.dir\\Debug\\\\" /Fd"cmTC_885f2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\CheckIncludeFile.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_885f2.dir\\Debug\\\\" /Fd"cmTC_885f2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\Debug\\cmTC_885f2.exe" /INCREMENTAL /ILK:"cmTC_885f2.dir\\Debug\\cmTC_885f2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-qg2hej/Debug/cmTC_885f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-qg2hej/Debug/cmTC_885f2.lib" /MACHINE:X64  /machine:x64 cmTC_885f2.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_885f2.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\Debug\\cmTC_885f2.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_885f2.dir\\Debug\\cmTC_885f2.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_885f2.dir\\Debug\\cmTC_885f2.tlog\\cmTC_885f2.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-qg2hej\\cmTC_885f2.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-jifepr"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-jifepr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-jifepr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_db2c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:37.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\cmTC_db2c6.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_db2c6.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_db2c6.dir\\Debug\\cmTC_db2c6.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_db2c6.dir\\Debug\\cmTC_db2c6.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_db2c6.dir\\Debug\\cmTC_db2c6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db2c6.dir\\Debug\\\\" /Fd"cmTC_db2c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\CheckIncludeFile.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db2c6.dir\\Debug\\\\" /Fd"cmTC_db2c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\Debug\\cmTC_db2c6.exe" /INCREMENTAL /ILK:"cmTC_db2c6.dir\\Debug\\cmTC_db2c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-jifepr/Debug/cmTC_db2c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-jifepr/Debug/cmTC_db2c6.lib" /MACHINE:X64  /machine:x64 cmTC_db2c6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_db2c6.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\Debug\\cmTC_db2c6.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_db2c6.dir\\Debug\\cmTC_db2c6.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_db2c6.dir\\Debug\\cmTC_db2c6.tlog\\cmTC_db2c6.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-jifepr\\cmTC_db2c6.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9wflmr"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9wflmr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_HAS_int64_t"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9wflmr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1b36c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:39.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\cmTC_1b36c.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_1b36c.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_1b36c.dir\\Debug\\cmTC_1b36c.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_1b36c.dir\\Debug\\cmTC_1b36c.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_1b36c.dir\\Debug\\cmTC_1b36c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b36c.dir\\Debug\\\\" /Fd"cmTC_1b36c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\HAS_int64_t.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b36c.dir\\Debug\\\\" /Fd"cmTC_1b36c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\HAS_int64_t.c"
+          HAS_int64_t.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\Debug\\cmTC_1b36c.exe" /INCREMENTAL /ILK:"cmTC_1b36c.dir\\Debug\\cmTC_1b36c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9wflmr/Debug/cmTC_1b36c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-9wflmr/Debug/cmTC_1b36c.lib" /MACHINE:X64  /machine:x64 cmTC_1b36c.dir\\Debug\\HAS_int64_t.obj
+          cmTC_1b36c.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\Debug\\cmTC_1b36c.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_1b36c.dir\\Debug\\cmTC_1b36c.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_1b36c.dir\\Debug\\cmTC_1b36c.tlog\\cmTC_1b36c.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-9wflmr\\cmTC_1b36c.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.10
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:136 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8fe4fd"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8fe4fd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8fe4fd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3b04d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:40.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\cmTC_3b04d.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3b04d.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3b04d.dir\\Debug\\cmTC_3b04d.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_3b04d.dir\\Debug\\cmTC_3b04d.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_3b04d.dir\\Debug\\cmTC_3b04d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b04d.dir\\Debug\\\\" /Fd"cmTC_3b04d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b04d.dir\\Debug\\\\" /Fd"cmTC_3b04d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\src.c(8,1): warning C4700: ЁбЇ®«м§®ў ­  ­ҐЁ­ЁжЁ «Ё§Ёа®ў ­­ п «®Є «м­ п ЇҐаҐ¬Ґ­­ п "args" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\cmTC_3b04d.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\Debug\\cmTC_3b04d.exe" /INCREMENTAL /ILK:"cmTC_3b04d.dir\\Debug\\cmTC_3b04d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8fe4fd/Debug/cmTC_3b04d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8fe4fd/Debug/cmTC_3b04d.lib" /MACHINE:X64  /machine:x64 cmTC_3b04d.dir\\Debug\\src.obj
+          cmTC_3b04d.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\Debug\\cmTC_3b04d.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_3b04d.dir\\Debug\\cmTC_3b04d.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_3b04d.dir\\Debug\\cmTC_3b04d.tlog\\cmTC_3b04d.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\cmTC_3b04d.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+        
+        "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\cmTC_3b04d.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\src.c(8,1): warning C4700: ЁбЇ®«м§®ў ­  ­ҐЁ­ЁжЁ «Ё§Ёа®ў ­­ п «®Є «м­ п ЇҐаҐ¬Ґ­­ п "args" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8fe4fd\\cmTC_3b04d.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.10
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:158 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s8cf9b"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s8cf9b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s8cf9b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_55a5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:42.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\cmTC_55a5a.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_55a5a.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_55a5a.dir\\Debug\\cmTC_55a5a.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_55a5a.dir\\Debug\\cmTC_55a5a.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_55a5a.dir\\Debug\\cmTC_55a5a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55a5a.dir\\Debug\\\\" /Fd"cmTC_55a5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55a5a.dir\\Debug\\\\" /Fd"cmTC_55a5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\Debug\\cmTC_55a5a.exe" /INCREMENTAL /ILK:"cmTC_55a5a.dir\\Debug\\cmTC_55a5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s8cf9b/Debug/cmTC_55a5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s8cf9b/Debug/cmTC_55a5a.lib" /MACHINE:X64  /machine:x64 cmTC_55a5a.dir\\Debug\\src.obj
+          cmTC_55a5a.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\Debug\\cmTC_55a5a.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_55a5a.dir\\Debug\\cmTC_55a5a.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_55a5a.dir\\Debug\\cmTC_55a5a.tlog\\cmTC_55a5a.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s8cf9b\\cmTC_55a5a.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:187 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s0c2il"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s0c2il"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s0c2il'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bb9c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:43.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\cmTC_bb9c5.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_bb9c5.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_bb9c5.dir\\Debug\\cmTC_bb9c5.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_bb9c5.dir\\Debug\\cmTC_bb9c5.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_bb9c5.dir\\Debug\\cmTC_bb9c5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb9c5.dir\\Debug\\\\" /Fd"cmTC_bb9c5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb9c5.dir\\Debug\\\\" /Fd"cmTC_bb9c5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\Debug\\cmTC_bb9c5.exe" /INCREMENTAL /ILK:"cmTC_bb9c5.dir\\Debug\\cmTC_bb9c5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s0c2il/Debug/cmTC_bb9c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-s0c2il/Debug/cmTC_bb9c5.lib" /MACHINE:X64  /machine:x64 cmTC_bb9c5.dir\\Debug\\src.obj
+          cmTC_bb9c5.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\Debug\\cmTC_bb9c5.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_bb9c5.dir\\Debug\\cmTC_bb9c5.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_bb9c5.dir\\Debug\\cmTC_bb9c5.tlog\\cmTC_bb9c5.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-s0c2il\\cmTC_bb9c5.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:201 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_INLINE"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-epx0t1"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-epx0t1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_INLINE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-epx0t1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3e26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:45.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\cmTC_a3e26.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a3e26.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a3e26.dir\\Debug\\cmTC_a3e26.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_a3e26.dir\\Debug\\cmTC_a3e26.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_a3e26.dir\\Debug\\cmTC_a3e26.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_INLINE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3e26.dir\\Debug\\\\" /Fd"cmTC_a3e26.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_INLINE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3e26.dir\\Debug\\\\" /Fd"cmTC_a3e26.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\Debug\\cmTC_a3e26.exe" /INCREMENTAL /ILK:"cmTC_a3e26.dir\\Debug\\cmTC_a3e26.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-epx0t1/Debug/cmTC_a3e26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-epx0t1/Debug/cmTC_a3e26.lib" /MACHINE:X64  /machine:x64 cmTC_a3e26.dir\\Debug\\src.obj
+          cmTC_a3e26.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\Debug\\cmTC_a3e26.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_a3e26.dir\\Debug\\cmTC_a3e26.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_a3e26.dir\\Debug\\cmTC_a3e26.tlog\\cmTC_a3e26.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-epx0t1\\cmTC_a3e26.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.04
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:46.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "x64\\Debug\\ZERO_CHECK\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "ltest.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "ltest.dir\\Debug\\ltest.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.19
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:48.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.81
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:242 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_MSG"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-hu8maj"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-hu8maj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_MSG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-hu8maj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_df371.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:17:49.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\cmTC_df371.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_df371.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_df371.dir\\Debug\\cmTC_df371.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_df371.dir\\Debug\\cmTC_df371.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_df371.dir\\Debug\\cmTC_df371.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_MSG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df371.dir\\Debug\\\\" /Fd"cmTC_df371.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_MSG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df371.dir\\Debug\\\\" /Fd"cmTC_df371.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\src.c(4,23): warning C4996: 'somefunc': test [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\cmTC_df371.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\Debug\\cmTC_df371.exe" /INCREMENTAL /ILK:"cmTC_df371.dir\\Debug\\cmTC_df371.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-hu8maj/Debug/cmTC_df371.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-hu8maj/Debug/cmTC_df371.lib" /MACHINE:X64  /machine:x64 cmTC_df371.dir\\Debug\\src.obj
+          cmTC_df371.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\Debug\\cmTC_df371.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_df371.dir\\Debug\\cmTC_df371.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_df371.dir\\Debug\\cmTC_df371.tlog\\cmTC_df371.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\cmTC_df371.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+        
+        "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\cmTC_df371.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\src.c(4,23): warning C4996: 'somefunc': test [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-hu8maj\\cmTC_df371.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.11
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:09.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.72
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:10.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.77
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:13.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.71
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:15.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.78
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:20.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.69
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:21.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.77
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:36.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.72
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:18:37.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.69
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:19:11.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.65
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:19:12.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.67
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:21:44.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.82
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:21:45.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        FinalizeBuildStatus:
+          ” ©« "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) ўлЇ®«­пҐв бЎ®аЄг "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          ЋЎа йҐ­ЁҐ Є "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          „«п ўбҐе ўле®¤­ле ¤ ­­ле ®Ў­®ў«Ґ­Ёп ­Ґ ваҐЎгҐвбп.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        "D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (3) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.80
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:213 (check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:273 (_check_c_compiler_attribute)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "src/sundials/CMakeLists.txt:143 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-rgm0ag"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-rgm0ag"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-rgm0ag'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e204f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:21:47.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e204f.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e204f.dir\\Debug\\cmTC_e204f.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_e204f.dir\\Debug\\cmTC_e204f.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_e204f.dir\\Debug\\cmTC_e204f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e204f.dir\\Debug\\\\" /Fd"cmTC_e204f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e204f.dir\\Debug\\\\" /Fd"cmTC_e204f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,15): error C2143: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ®вбгвбвўЁҐ ")" ЇҐаҐ¤ "(" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,30): error C2059: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ) [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,31): error C2059: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ) [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,33): error C2143: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ®вбгвбвўЁҐ ")" ЇҐаҐ¤ "вЁЇ" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,1): error C2091: дг­ЄжЁп ў®§ўа й Ґв дг­ЄжЁо [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,37): error C2085: somefunc: ®вбгвбвўгҐв ў бЇЁбЄҐ д®а¬ «м­ле Ї а ¬Ґва®ў [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,48): error C2143: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ®вбгвбвўЁҐ ";" ЇҐаҐ¤ "{" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(2,25): warning C4013: somefunc: ­Ґв ®ЇаҐ¤Ґ«Ґ­Ёп; ЇаҐ¤Ї®« Ј Ґвбп "extern" б ў®§ўа в®¬ вЁЇ  "int" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(2,25): warning C4013: somefunc: ­Ґв ®ЇаҐ¤Ґ«Ґ­Ёп; ЇаҐ¤Ї®« Ј Ґвбп "extern" б ў®§ўа в®¬ вЁЇ  "int" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        
+        
+        "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,15): error C2143: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ®вбгвбвўЁҐ ")" ЇҐаҐ¤ "(" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,30): error C2059: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ) [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,31): error C2059: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ) [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,33): error C2143: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ®вбгвбвўЁҐ ")" ЇҐаҐ¤ "вЁЇ" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,1): error C2091: дг­ЄжЁп ў®§ўа й Ґв дг­ЄжЁо [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,37): error C2085: somefunc: ®вбгвбвўгҐв ў бЇЁбЄҐ д®а¬ «м­ле Ї а ¬Ґва®ў [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\src.c(1,48): error C2143: бЁ­в ЄбЁзҐбЄ п ®иЁЎЄ : ®вбгвбвўЁҐ ";" ЇҐаҐ¤ "{" [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-rgm0ag\\cmTC_e204f.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+            ЋиЁЎ®Є: 7
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:213 (check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:279 (_check_c_compiler_attribute)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "src/sundials/CMakeLists.txt:143 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-3m0lmc"
+      binary: "D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-3m0lmc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-3m0lmc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bdb3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.9.5+33de0b227 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  11.03.2024 17:21:48.
+        
+        Џа®ҐЄв "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\cmTC_bdb3a.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_bdb3a.dir\\Debug\\".
+          ‘вагЄвгаЁа®ў ­­л© ўлў®¤ ўЄ«озҐ­. ”®а¬ вЁа®ў ­ЁҐ ¤Ё Ј­®бвЁЄЁ Є®¬ЇЁ«пв®а  Ўг¤Ґв ®ва ¦ вм ЁҐа аеЁо ®иЁЎ®Є. Џ®¤а®Ў­ҐҐ б¬. https://aka.ms/cpp/structured-output.
+          ‘®§¤ ­ЁҐ Є в «®Ј  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_bdb3a.dir\\Debug\\cmTC_bdb3a.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_bdb3a.dir\\Debug\\cmTC_bdb3a.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_bdb3a.dir\\Debug\\cmTC_bdb3a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdb3a.dir\\Debug\\\\" /Fd"cmTC_bdb3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.39.33521 ¤«п x64
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdb3a.dir\\Debug\\\\" /Fd"cmTC_bdb3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\src.c(2,25): warning C4996: 'somefunc': ®Ўкпў«Ґ­ deprecate [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\cmTC_bdb3a.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\Debug\\cmTC_bdb3a.exe" /INCREMENTAL /ILK:"cmTC_bdb3a.dir\\Debug\\cmTC_bdb3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-3m0lmc/Debug/cmTC_bdb3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/sundials_build/CMakeFiles/CMakeScratch/TryCompile-3m0lmc/Debug/cmTC_bdb3a.lib" /MACHINE:X64  /machine:x64 cmTC_bdb3a.dir\\Debug\\src.obj
+          cmTC_bdb3a.vcxproj -> D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\Debug\\cmTC_bdb3a.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_bdb3a.dir\\Debug\\cmTC_bdb3a.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_bdb3a.dir\\Debug\\cmTC_bdb3a.tlog\\cmTC_bdb3a.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\cmTC_bdb3a.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+        
+        "D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\cmTC_bdb3a.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\src.c(2,25): warning C4996: 'somefunc': ®Ўкпў«Ґ­ deprecate [D:\\Storage\\Daniil\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-3m0lmc\\cmTC_bdb3a.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.04
+        
+      exitCode: 0
+...

@@ -1,0 +1,68 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/nvector/serial/CMakeLists.txt
+  test_nvector_serial.c
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VClone в функции main.
+test_nvector.obj : error LNK2001: неразрешенный внешний символ __imp_N_VClone.
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDestroy в функции main.
+test_nvector.obj : error LNK2001: неразрешенный внешний символ __imp_N_VDestroy.
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VGetArrayPointer в функции check_ans.
+test_nvector.obj : error LNK2001: неразрешенный внешний символ __imp_N_VGetArrayPointer.
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VNew_Serial в функции main.
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VNewEmpty_Serial в функции main.
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VEnableFusedOps_Serial в функции main.
+test_nvector_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNRCompare в функции check_ans.
+test_nvector.obj : error LNK2001: неразрешенный внешний символ __imp_SUNRCompare.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNContext_Create в функции Test_Init.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNContext_Free в функции Test_Finalize.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VGetVectorID в функции Test_N_VGetVectorID.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VCloneEmpty в функции Test_N_VCloneEmpty.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VSetArrayPointer в функции Test_N_VSetArrayPointer.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VGetCommunicator в функции Test_N_VGetCommunicator.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VGetLength в функции Test_N_VDotProd.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VLinearSum в функции Test_N_VLinearSum.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VConst в функции Test_N_VAbs.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VProd в функции Test_N_VProd.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDiv в функции Test_N_VDiv.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VScale в функции Test_N_VScale.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VAbs в функции Test_N_VAbs.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VInv в функции Test_N_VInv.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VAddConst в функции Test_N_VAddConst.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDotProd в функции Test_N_VDotProd.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMaxNorm в функции Test_N_VMaxNorm.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWrmsNorm в функции Test_N_VWrmsNorm.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWrmsNormMask в функции Test_N_VWrmsNormMask.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMin в функции Test_N_VMin.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWL2Norm в функции Test_N_VWL2Norm.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VL1Norm в функции Test_N_VL1Norm.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VCompare в функции Test_N_VCompare.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VInvTest в функции Test_N_VInvTest.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VConstrMask в функции Test_N_VConstrMask.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMinQuotient в функции Test_N_VMinQuotient.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VLinearCombination в функции Test_N_VLinearCombination.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VScaleAddMulti в функции Test_N_VScaleAddMulti.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDotProdMulti в функции Test_N_VDotProdMulti.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VLinearSumVectorArray в функции Test_N_VLinearSumVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VScaleVectorArray в функции Test_N_VScaleVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VConstVectorArray в функции Test_N_VConstVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWrmsNormVectorArray в функции Test_N_VWrmsNormVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWrmsNormMaskVectorArray в функции Test_N_VWrmsNormMaskVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VScaleAddMultiVectorArray в функции Test_N_VScaleAddMultiVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VLinearCombinationVectorArray в функции Test_N_VLinearCombinationVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDotProdLocal в функции Test_N_VDotProdLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMaxNormLocal в функции Test_N_VMaxNormLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMinLocal в функции Test_N_VMinLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VL1NormLocal в функции Test_N_VL1NormLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWSqrSumLocal в функции Test_N_VWSqrSumLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VWSqrSumMaskLocal в функции Test_N_VWSqrSumMaskLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VInvTestLocal в функции Test_N_VInvTestLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VConstrMaskLocal в функции Test_N_VConstrMaskLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMinQuotientLocal в функции Test_N_VMinQuotientLocal.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDotProdMultiLocal в функции Test_N_VDotProdMultiAllReduce.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDotProdMultiAllReduce в функции Test_N_VDotProdMultiAllReduce.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VBufSize в функции Test_N_VBufPack.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VBufPack в функции Test_N_VBufPack.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VBufUnpack в функции Test_N_VBufUnpack.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VCloneEmptyVectorArray в функции Test_N_VCloneEmptyVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VCloneVectorArray в функции Test_N_VCloneVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDestroyVectorArray в функции Test_N_VCloneEmptyVectorArray.
+test_nvector.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNRCompareTol в функции Test_N_VDotProdLocal.
+D:\Storage\Daniil\sundials_build\bin\Release\test_nvector_serial.exe : fatal error LNK1120: неразрешенных внешних элементов: 61

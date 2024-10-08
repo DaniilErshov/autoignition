@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Storage\Daniil\sundials\sundials-6.5.1\examples\nvector\manyvector\test_nvector_manyvector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\sundials\sundials-6.5.1\examples\nvector\manyvector\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Storage\Daniil\sundials_build\examples\nvector\test_nvector_obj.dir\$(Configuration)\test_nvector.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C4876FC8-CBD6-3284-98DD-A3A0DDEAA7D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD48EBD8-B10C-3CB2-BC07-89130F96FA01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\boost">
+      <UniqueIdentifier>{e9aa2c6e-2a9b-4f41-b243-9e4f677603cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\boost">
+      <UniqueIdentifier>{88995146-3c02-4c68-b984-200ee19f721e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ChemkinReader">
+      <UniqueIdentifier>{2cb23520-39c8-4d37-b65a-e062d0826f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ChemkinReader">
+      <UniqueIdentifier>{7c60a8d2-41e6-4388-bde8-b067b994f996}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auto_ignition.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="concentration.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="constants.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="functions_sundials.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GasTransport.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MMCollisionInt.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="polyfit.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="thermodynamic.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Boost_regex\src\posix_api.cpp">
+      <Filter>Исходные файлы\boost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Boost_regex\src\regex.cpp">
+      <Filter>Исходные файлы\boost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Boost_regex\src\regex_debug.cpp">
+      <Filter>Исходные файлы\boost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Boost_regex\src\static_mutex.cpp">
+      <Filter>Исходные файлы\boost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Boost_regex\src\wide_posix_api.cpp">
+      <Filter>Исходные файлы\boost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\chemkinReader.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\element.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\reaction.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\reactionParser.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\species.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\stringFunctions.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\thermo.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\thermoParser.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\transport.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChemKinReader\src\transportParser.cpp">
+      <Filter>Исходные файлы\ChemkinReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="concentration.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="functions_sundials.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GasTransport.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MMCollisionInt.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="polyfit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="thermodynamic.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\Boost_regex\include\boost\regex.h">
+      <Filter>Файлы заголовков\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\chemkinReader.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\element.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\gpc_params.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\reaction.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\reactionParser.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\species.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\stringFunctions.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\StringUtils.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\thermo.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\thermoParser.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\transport.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CHEMKIN_READER_REPO_CROP\3rd-party\ChemKinReader\include\transportParser.h">
+      <Filter>Файлы заголовков\ChemkinReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

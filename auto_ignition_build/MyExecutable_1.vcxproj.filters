@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\Boost_regex\src\posix_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\Boost_regex\src\regex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\Boost_regex\src\regex_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\Boost_regex\src\static_mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\Boost_regex\src\wide_posix_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\chemkinReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\reaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\reactionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\species.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\stringFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\thermo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\thermoParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\transport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\ChemKinReader\src\transportParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\GasTransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\MMCollisionInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\auto_ignition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\concentration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\functions_sundials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\polyfit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Storage\Daniil\auto_ignition\auto_ignition\auto_ignition\thermodynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\auto_ignition\auto_ignition\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F8EEDFDA-36CC-372B-B109-C9CED12422C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

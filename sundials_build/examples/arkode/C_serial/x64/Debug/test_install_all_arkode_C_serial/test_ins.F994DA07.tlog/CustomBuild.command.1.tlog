@@ -1,0 +1,26 @@
+^D:\STORAGE\DANIIL\SUNDIALS_BUILD\CMAKEFILES\47ACC63DD254101F940D94F1D678EDDE\TEST_INSTALL_ALL_ARKODE_C_SERIAL.RULE
+setlocal
+cd D:\Storage\Daniil\sundials_build\Testing_Install_All\arkode\C_serial
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe "C:/Program Files (x86)/SUNDIALS/examples/arkode/C_serial" > cmake.out
+if %errorlevel% neq 0 goto :cmEnd
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe --build D:/Storage/Daniil/sundials_build/Testing_Install_All/arkode/C_serial > make.out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STORAGE\DANIIL\SUNDIALS\SUNDIALS-6.5.1\EXAMPLES\ARKODE\C_SERIAL\CMAKELISTS.TXT
+setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/sundials/sundials-6.5.1 -BD:/Storage/Daniil/sundials_build --check-stamp-file D:/Storage/Daniil/sundials_build/examples/arkode/C_serial/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

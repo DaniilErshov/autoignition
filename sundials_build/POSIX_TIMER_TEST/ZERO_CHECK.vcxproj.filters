@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\sundials_build\POSIX_TIMER_TEST\CMakeFiles\52a774720025b1b44efd902d262a8dff\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8FE03ADE-5BF3-3754-87E2-7DCA67041DCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

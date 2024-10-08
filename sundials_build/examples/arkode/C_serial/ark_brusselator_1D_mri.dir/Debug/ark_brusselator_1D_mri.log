@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/arkode/C_serial/CMakeLists.txt
+  ark_brusselator_1D_mri.c
+  ark_brusselator_1D_mri.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Debug\ark_brusselator_1D_mri.exe

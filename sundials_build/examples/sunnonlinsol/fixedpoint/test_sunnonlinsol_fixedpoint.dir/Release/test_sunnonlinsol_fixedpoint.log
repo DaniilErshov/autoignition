@@ -1,0 +1,23 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/sunnonlinsol/fixedpoint/CMakeLists.txt
+  test_sunnonlinsol_fixedpoint.c
+D:\Storage\Daniil\sundials\sundials-6.5.1\include\sunnonlinsol\sunnonlinsol_fixedpoint.h(130,1): warning C4141: dllimport: используется несколько раз
+  (компиляция исходного файла "../../../../sundials/sundials-6.5.1/examples/sunnonlinsol/fixedpoint/test_sunnonlinsol_fixedpoint.c")
+  
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNContext_Create в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNContext_Free в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VClone в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDestroy в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VGetArrayPointer в функции FPFunction.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VLinearSum в функции FPFunction.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VConst в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VMaxNorm в функции ConvTest.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VNew_Serial в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolSolve в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolFree в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolSetSysFn в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolSetConvTestFn в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolSetMaxIters в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolGetNumIters в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSol_FixedPoint в функции main.
+test_sunnonlinsol_fixedpoint.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNNonlinSolSetDamping_FixedPoint в функции main.
+D:\Storage\Daniil\sundials_build\bin\Release\test_sunnonlinsol_fixedpoint.exe : fatal error LNK1120: неразрешенных внешних элементов: 17

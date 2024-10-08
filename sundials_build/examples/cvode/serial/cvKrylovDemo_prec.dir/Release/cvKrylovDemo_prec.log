@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/cvode/serial/CMakeLists.txt
+  cvKrylovDemo_prec.c
+  cvKrylovDemo_prec.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Release\cvKrylovDemo_prec.exe

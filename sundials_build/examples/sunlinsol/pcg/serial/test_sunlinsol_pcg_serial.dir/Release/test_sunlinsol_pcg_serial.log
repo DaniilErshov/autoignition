@@ -1,0 +1,34 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/sunlinsol/pcg/serial/CMakeLists.txt
+  test_sunlinsol_pcg_serial.c
+  test_sunlinsol.c
+  Создание кода...
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNContext_Create в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNContext_Free в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VDestroy в функции main.
+test_sunlinsol.obj : error LNK2001: неразрешенный внешний символ __imp_N_VDestroy.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VGetArrayPointer в функции ATimes.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VConst в функции main.
+test_sunlinsol.obj : error LNK2001: неразрешенный внешний символ __imp_N_VConst.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VProd в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolFree в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSol_PCG в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSol_PCGSetPrecType в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VNew_Serial в функции main.
+test_sunlinsol_pcg_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNRCompareTol в функции check_vector.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VClone в функции Test_SUNLinSolSolve.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VAddConst в функции Test_SUNLinSolSolve.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolGetType в функции Test_SUNLinSolGetType.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolGetID в функции Test_SUNLinSolGetID.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSetATimes в функции Test_SUNLinSolSetATimes.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSetPreconditioner в функции Test_SUNLinSolSetPreconditioner.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSetScalingVectors в функции Test_SUNLinSolSetScalingVectors.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSetZeroGuess в функции Test_SUNLinSolSetZeroGuess.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolInitialize в функции Test_SUNLinSolInitialize.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSetup в функции Test_SUNLinSolSetup.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSolve в функции Test_SUNLinSolSolve.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolNumIters в функции Test_SUNLinSolNumIters.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolResNorm в функции Test_SUNLinSolResNorm.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolResid в функции Test_SUNLinSolResid.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolLastFlag в функции Test_SUNLinSolLastFlag.
+test_sunlinsol.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_SUNLinSolSpace в функции Test_SUNLinSolSpace.
+D:\Storage\Daniil\sundials_build\bin\Release\test_sunlinsol_pcg_serial.exe : fatal error LNK1120: неразрешенных внешних элементов: 27

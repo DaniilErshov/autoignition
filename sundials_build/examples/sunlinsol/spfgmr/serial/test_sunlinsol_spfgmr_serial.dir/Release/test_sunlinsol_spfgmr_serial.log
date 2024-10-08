@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/sunlinsol/spfgmr/serial/CMakeLists.txt
+  test_sunlinsol_spfgmr_serial.c
+  test_sunlinsol.c
+  Создание кода...
+test_sunlinsol_spfgmr_serial.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_N_VNew_Serial в функции main.
+D:\Storage\Daniil\sundials_build\bin\Release\test_sunlinsol_spfgmr_serial.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

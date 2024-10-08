@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Storage/Daniil/sundials/sundials-6.5.1/examples/cvodes/serial/CMakeLists.txt
+  cvsDiurnal_kry.c
+  cvsDiurnal_kry.vcxproj -> D:\Storage\Daniil\sundials_build\bin\Debug\cvsDiurnal_kry.exe

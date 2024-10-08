@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Storage\Daniil\sundials\sundials-6.5.1\examples\sunlinsol\test_sunlinsol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Storage\Daniil\sundials\sundials-6.5.1\examples\sunlinsol\test_sunlinsol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\sundials\sundials-6.5.1\examples\sunlinsol\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D370CD6B-E4FD-3D6E-B09E-517327D0DB68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD48EBD8-B10C-3CB2-BC07-89130F96FA01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
